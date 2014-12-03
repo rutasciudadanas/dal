@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ruta Ciudadana</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_id">1586442638251678</string>
+    <string name="app_id_map">AIzaSyD-qkCBpnEFM8NMEoLJakJP246icWySIp8</string>
+    <!-- menu -->
+    <string name="puntoab">Punto A-B</string>
+    <string name="rutasbuses">Ver rutas de buses</string>
+    <string name="denuncia">Denunciar</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- ActionBar -->
+    <string name="name">RUTA</string>
+    <string name="name_second">CIUDADANA</string>
+    <string name="title_activity_ubicacion_">Ubicacion_Activity</string>
+
+</resources>

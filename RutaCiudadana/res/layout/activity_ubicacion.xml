@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F8E9"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.ruta.UbiquiteActivity" >
+
+    <CheckBox
+        android:id="@+id/CheckUbicacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Usar mi ubicacion" />
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:layout_width="286dp"
+        android:layout_height="290dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/CheckUbicacion"
+        android:layout_margin="15dp"
+        class="com.google.android.gms.maps.MapFragment" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/fragment1"
+        android:onClick="Obtener_inicio"
+        android:text="Aceptar" />
+
+</RelativeLayout>

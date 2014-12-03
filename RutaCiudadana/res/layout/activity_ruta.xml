@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.app.rutaciudadana.Ruta_Activity" >
+
+    <LinearLayout
+        style="@style/color"
+        android:layout_width="290dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/puntoa"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="45dp"
+            android:background="@android:drawable/editbox_background"
+            android:hint="Escribir Ruta..." />
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/button_color_p"
+            android:layout_width="124dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="Ver Recorrido" />
+    </LinearLayout>
+
+</LinearLayout>
